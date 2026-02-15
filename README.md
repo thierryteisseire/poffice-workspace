@@ -6,6 +6,14 @@ Administration and automation suite for the **Poffice** ecosystem (Mailcow, Seaf
 
 The `poffice-admin` skill provides a comprehensive set of Python scripts and documentation to manage a self-hosted office stack. It enables automation of user provisioning, mail management, document generation, and calendar orchestration.
 
+## 📦 Installation via skills.sh
+
+You can install this skill directly into your AI agent environment using:
+
+```bash
+npx skills add thierryteisseire/poffice-workspace@poffice-admin
+```
+
 ---
 
 ## 🛠 Features & Functions
