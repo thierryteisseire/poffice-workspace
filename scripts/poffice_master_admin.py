@@ -58,7 +58,7 @@ class PofficeMasterAdmin:
 if __name__ == "__main__":
     import sys
     # Load DB URL from .env or provided
-    DB_URL = os.getenv("DATABASE_URL", "postgresql://neondb_owner:npg_Ii2cdrGwASO8@ep-noisy-cell-ahdchm2w-pooler.c-3.us-east-1.aws.neon.tech/neondb?sslmode=require")
+    DB_URL = os.getenv("DATABASE_URL", "")
     
     manager = PofficeMasterAdmin(DB_URL)
     

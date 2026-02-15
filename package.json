@@ -1,0 +1,28 @@
+{
+    "name": "poffice-admin",
+    "version": "1.0.0",
+    "description": "Administration and automation skill for the Poffice suite (Mailcow, Seafile, Paperless-ngx, SOGo).",
+    "main": "SKILL.md",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "poffice",
+        "admin",
+        "skill",
+        "automation",
+        "mailcow",
+        "seafile",
+        "paperless-ngx"
+    ],
+    "author": "Thierry Teisseire",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/thierryteisseire/poffice-workspace.git"
+    },
+    "bugs": {
+        "url": "https://github.com/thierryteisseire/poffice-workspace/issues"
+    },
+    "homepage": "https://github.com/thierryteisseire/poffice-workspace#readme"
+}

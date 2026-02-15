@@ -133,7 +133,7 @@ class PofficeCalendar:
 if __name__ == "__main__":
     import sys, os
     USER = os.getenv("POFFICE_EMAIL", "admin@poffice.online")
-    PASS = os.getenv("POFFICE_PASSWORD", "Poffice2025")
+    PASS = os.getenv("POFFICE_PASSWORD", "")
     cal_manager = PofficeCalendar(USER, PASS)
     if len(sys.argv) > 1:
         action = sys.argv[1]

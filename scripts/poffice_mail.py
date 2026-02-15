@@ -56,7 +56,7 @@ if __name__ == "__main__":
     # Example usage
     import sys
     # For testing, we can provide the API key as en env var
-    API_KEY = os.getenv("MAILCOW_API_KEY", "a58bec3fa214d7f3fecc33625f5827dd")
+    API_KEY = os.getenv("MAILCOW_API_KEY", "")
     client = PofficeMail(API_KEY)
     
     if len(sys.argv) > 1:

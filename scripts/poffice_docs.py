@@ -87,8 +87,8 @@ class SeafileAdmin:
 if __name__ == "__main__":
     import sys
     # Example usage
-    USER = os.getenv("SEAFILE_ADMIN_EMAIL", "admin@poffice.online")
-    PASS = os.getenv("SEAFILE_ADMIN_PASSWORD", "SeafileCloud2025")
+    USER = os.getenv("SEAFILE_ADMIN_EMAIL", "")
+    PASS = os.getenv("SEAFILE_ADMIN_PASSWORD", "")
     
     admin = SeafileAdmin(USER, PASS)
     
